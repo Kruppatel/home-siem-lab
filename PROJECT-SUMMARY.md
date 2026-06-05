@@ -25,9 +25,9 @@ Breaking into cybersecurity without hands-on experience is difficult. Certificat
 ## The Lab Environment
 
 Think of this as a mini corporate network running inside a Mac:
-[Kali Linux VM]          [Mac Host]           [Windows 11 VM]
-192.168.64.3    <-->  192.168.64.1   <-->   192.168.64.10
-(Attacker)           (SIEM/Elastic)          (Victim)
+- **Kali Linux VM** (192.168.64.3) — Attacker
+- **Mac Host** (192.168.64.1) — SIEM/Elastic  
+- **Windows 11 VM** (192.168.64.10) — Victim
 
 
 **Why these tools?**
