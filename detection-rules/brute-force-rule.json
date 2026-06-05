@@ -1,0 +1,11 @@
+{
+  "name": "Brute Force Attack - Multiple Failed Logins",
+  "type": "threshold",
+  "query": "event.code: 4625",
+  "threshold_field": "host.name",
+  "threshold_value": 2,
+  "severity": "high",
+  "risk_score": 75,
+  "tags": ["brute-force", "windows"],
+  "interval": "5m"
+}
