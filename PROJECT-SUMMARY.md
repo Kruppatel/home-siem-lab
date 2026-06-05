@@ -28,6 +28,8 @@ Think of this as a mini corporate network running inside a Mac:
 [Kali Linux VM]          [Mac Host]           [Windows 11 VM]
 192.168.64.3    <-->  192.168.64.1   <-->   192.168.64.10
 (Attacker)           (SIEM/Elastic)          (Victim)
+
+
 **Why these tools?**
 - **UTM** — Best free virtualization tool for Apple Silicon Macs
 - **Kali Linux** — Industry standard for penetration testing and attack simulation
